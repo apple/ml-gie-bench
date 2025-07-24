@@ -132,4 +132,4 @@ if __name__ == "__main__":
     input_json = sys.argv[1]
     output_path = input_json.replace(".json", "_with_mc.json")
 
-    evaluate_gpt4o_on_json(input_json, output_json)
+    evaluate_gpt4o_on_json(input_json, output_path)
